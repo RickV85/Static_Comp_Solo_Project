@@ -6,7 +6,157 @@
   padding: 0;
 }
 
+/* Universal styles */
+
+.h1 {
+
+}
+
+.h2 {
+
+}
+
+.h3 {
+
+}
+
+.h4 {
+
+}
+
+/* NAV section */
+
 .nav {
   height: 5vh;
   background-color: blue;
+}
+
+.top-nav {
+
+}
+
+.user-icon {
+
+}
+
+.admin-link {
+
+}
+
+.nav-arrow {
+
+}
+
+.bottom-nav {
+
+}
+
+.bottom-nav-left {
+
+}
+
+.nav-shares {
+
+}
+
+.nav-shares-icon {
+
+}
+
+.nav-playlists {
+
+}
+
+.nav-playlist-icon {
+
+}
+
+.nav-personal-videos {
+
+}
+
+.bottom-nav-right {
+  
+}
+
+.site-title {
+
+}
+
+/* MAIN styles */
+
+.main {
+
+}
+
+.main-header{
+
+}
+
+.main-top{
+
+}
+
+.tile {
+
+}
+
+.tile-header {
+
+}
+
+.tile-arrow {
+
+}
+
+.tile-header-background {
+
+}
+
+.views {
+
+}
+
+.view-count {
+
+}
+
+.recipient-section {
+
+}
+
+.recipient-name {
+
+}
+
+.date-shared {
+
+}
+
+.link-shared {
+
+}
+
+.playlist-section {
+
+}
+
+.playlist-title {
+
+}
+
+.playlist-name {
+
+}
+
+.attachment-section {
+
+}
+
+.attachments-title {
+
+}
+
+.attachments-number {
+
 }
