@@ -8,6 +8,11 @@
 
 /* Universal styles */
 
+* {
+  font-family: 'Bitter', serif;
+  color: #001524;
+}
+
 .h1 {
 
 }
@@ -22,6 +27,10 @@
 
 .h4 {
 
+}
+
+.p {
+  
 }
 
 /* NAV section */
@@ -39,7 +48,7 @@
 
 }
 
-.admin-link {
+.profile-link {
 
 }
 
@@ -55,23 +64,27 @@
 
 }
 
-.nav-shares {
+.nav-software {
 
 }
 
-.nav-shares-icon {
+.nav-software-icon {
 
 }
 
-.nav-playlists {
+.nav-resume {
 
 }
 
-.nav-playlist-icon {
+.nav-resume-icon {
 
 }
 
-.nav-personal-videos {
+.nav-videos {
+
+}
+
+.nav-videos-icon {
 
 }
 
@@ -81,6 +94,10 @@
 
 .site-title {
 
+}
+
+.site-logo {
+  
 }
 
 /* MAIN styles */
@@ -105,11 +122,11 @@
 
 }
 
-.tile-arrow {
+.tile-share-icon {
 
 }
 
-.tile-header-background {
+.tile-header-img {
 
 }
 
@@ -121,42 +138,25 @@
 
 }
 
-.recipient-section {
+.video-details-section {
 
 }
 
-.recipient-name {
+.video-title {
 
 }
 
-.date-shared {
+.date-uploaded {
 
 }
 
-.link-shared {
+.description-section {
 
 }
 
-.playlist-section {
+.description-header {
 
 }
-
-.playlist-title {
-
-}
-
-.playlist-name {
-
-}
-
-.attachment-section {
-
-}
-
-.attachments-title {
-
-}
-
-.attachments-number {
+.description {
 
 }
