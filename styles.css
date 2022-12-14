@@ -123,19 +123,20 @@
 }
 
 .tile-share-icon {
-
+  z-index: 2;
 }
 
 .tile-header-img {
-
+  height:18vh;
+  z-index: 1;
 }
 
 .views {
-
+  z-index: 2;
 }
 
 .view-count {
-
+  z-index: 2;
 }
 
 .video-details-section {
@@ -158,5 +159,9 @@
 
 }
 .description {
+
+}
+
+.show-more {
 
 }
