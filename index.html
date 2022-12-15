@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Rick Vermeil</title>
     <link href="styles.css" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicon-96x96.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -11,39 +12,44 @@
   <body>
     <nav class="nav">
       <section class="top-nav">
-        <img class="user-icon" src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/64/000000/external-user-interface-kiranshastry-lineal-kiranshastry.png" alt="user profile icon">
-        <a href="" class="profile-link">User Name</a>
-        <img class="nav-arrow" src="https://img.icons8.com/material-sharp/24/000000/give-way--v1.png" alt="navigation arrow">
+        <div class="empty-top-nav"></div>
+        <section class="user-section">
+          <img class="user-icon" src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/64/000000/15616D/external-user-interface-kiranshastry-lineal-kiranshastry.png" alt="user profile icon">
+          <p class="profile-link">User Name</p>
+          <img class="nav-arrow" src="https://img.icons8.com/material-sharp/24/000000/15616D/give-way--v1.png" alt="navigation arrow">
+        </section>
       </section>
       <section class="bottom-nav">
         <section class="bottom-nav-right">
           <section class="site-title">
             <h1>Rick Vermeil</h1>
-            <img class="site-logo" src="https://img.icons8.com/undefined/50/000000/undefined.png" alt="climbing anchor icon">
+            <img class="site-logo" src="https://img.icons8.com/15616D/ios/100/null/climbing-anchor.png" alt="climbing anchor icon">
           </section>
         </section>
         <section class="bottom-nav-left">
           <section class="nav-software">
-            <img class="nav-software-icon" src="https://img.icons8.com/ios/50/null/javascript-logo.png" alt="JavaScript icon">
+            <img class="nav-software-icon" src="https://img.icons8.com/15616D/ios/50/null/javascript-logo.png" alt="JavaScript icon">
             <h2>Software</h2>
           </section>
           <section class="nav-resume">
-            <img class="nav-resume-icon" src="https://img.icons8.com/dotty/80/null/parse-from-clipboard.png" alt="resume icon">
+            <img class="nav-resume-icon" src="https://img.icons8.com/15616D/dotty/80/null/parse-from-clipboard.png" alt="resume icon">
             <h2>Resume</h2>
           </section>
           <section class="nav-videos">
-            <img class="nav-videos-icon" src="https://img.icons8.com/ios/50/null/play-button-circled--v1.png" alt="play button">
-            <h2>Videos</h2>
+            <img class="nav-videos-icon" src="https://img.icons8.com/15616D/ios/50/null/play-button-circled--v1.png" alt="play button">
+            <h2 class="selected-section-title">Videos</h2>
           </section>
         </section>
       </section>
     </nav>
     <main class="main">
-      <h2 class="main-header">Videos</h2>
+      <section class="main-header">
+        <h2 class="main-header-selected-section-title">Videos</h2>
+      </section>
       <section class="main-top">
         <article class="tile">
           <section class="tile-header">
-            <img class="tile-share-icon" src="https://img.icons8.com/external-those-icons-lineal-those-icons/96/000000/external-share-network-sharing-those-icons-lineal-those-icons.png"/>
+            <img class="tile-share-icon" src="https://img.icons8.com/external-those-icons-lineal-those-icons/96/000000/34F6F2/external-share-network-sharing-those-icons-lineal-those-icons.png"/>
             <img src="./assets/cryptic.png" class="tile-header-img" alt="rock climbing">
             <h3 class="views">Views</h3>
             <h3 class="view-count">22</h3>
@@ -59,7 +65,7 @@
         </article>
         <article class="tile">
           <section class="tile-header">
-            <img class="tile-share-icon" src="https://img.icons8.com/external-those-icons-lineal-those-icons/96/000000/external-share-network-sharing-those-icons-lineal-those-icons.png"/>
+            <img class="tile-share-icon" src="https://img.icons8.com/external-those-icons-lineal-those-icons/96/000000/34F6F2/external-share-network-sharing-those-icons-lineal-those-icons.png"/>
             <img src="./assets/glacier.png" class="tile-header-img" alt="mountains in Glacier National Park">
             <h3 class="views">Views</h3>
             <h3 class="view-count">26</h3>
@@ -80,7 +86,7 @@
         </article>
         <article class="tile">
           <section class="tile-header">
-            <img class="tile-share-icon" src="https://img.icons8.com/external-those-icons-lineal-those-icons/96/000000/external-share-network-sharing-those-icons-lineal-those-icons.png"/>
+            <img class="tile-share-icon" src="https://img.icons8.com/external-those-icons-lineal-those-icons/96/000000/34F6F2/external-share-network-sharing-those-icons-lineal-those-icons.png"/>
             <img class="tile-header-img" src="./assets/trestle.png">
             <h3 class="views">Views</h3>
             <h3 class="view-count">28</h3>
@@ -96,7 +102,7 @@
         </article>
         <article class="tile">
           <section class="tile-header">
-            <img class="tile-share-icon" src="https://img.icons8.com/external-those-icons-lineal-those-icons/96/000000/external-share-network-sharing-those-icons-lineal-those-icons.png"/>
+            <img class="tile-share-icon" src="https://img.icons8.com/external-those-icons-lineal-those-icons/96/000000/34F6F2/external-share-network-sharing-those-icons-lineal-those-icons.png"/>
             <img class="tile-header-img" src="./assets/snowmass.png">
             <h3 class="views">Views</h3>
             <h3 class="view-count">15</h3>
@@ -114,7 +120,7 @@
       <section class="main-bottom">
         <article class="tile">
           <section class="tile-header">
-            <img class="tile-share-icon" src="https://img.icons8.com/external-those-icons-lineal-those-icons/96/000000/external-share-network-sharing-those-icons-lineal-those-icons.png"/>
+            <img class="tile-share-icon" src="https://img.icons8.com/external-those-icons-lineal-those-icons/96/000000/34F6F2/external-share-network-sharing-those-icons-lineal-those-icons.png"/>
             <img class="tile-header-img" src="./assets/whistler.png">
             <h3 class="views">Views</h3>
             <h3 class="view-count">23</h3>
@@ -130,7 +136,7 @@
         </article>
         <article class="tile">
           <section class="tile-header">
-            <img class="tile-share-icon" src="https://img.icons8.com/external-those-icons-lineal-those-icons/96/000000/external-share-network-sharing-those-icons-lineal-those-icons.png"/>
+            <img class="tile-share-icon" src="https://img.icons8.com/external-those-icons-lineal-those-icons/96/000000/34F6F2/external-share-network-sharing-those-icons-lineal-those-icons.png"/>
             <img class="tile-header-img" src="./assets/valhalla.png">
             <h3 class="views">Views</h3>
             <h3 class="view-count">86</h3>
@@ -146,7 +152,7 @@
         </article>
         <article class="tile">
           <section class="tile-header">
-            <img class="tile-share-icon" src="https://img.icons8.com/external-those-icons-lineal-those-icons/96/000000/external-share-network-sharing-those-icons-lineal-those-icons.png"/>
+            <img class="tile-share-icon" src="https://img.icons8.com/external-those-icons-lineal-those-icons/96/000000/34F6F2/external-share-network-sharing-those-icons-lineal-those-icons.png"/>
             <img class="tile-header-img" src="./assets/lefthand.png">
             <h3 class="views">Views</h3>
             <h3 class="view-count">396</h3>
@@ -162,7 +168,7 @@
         </article>
         <article class="tile">
           <section class="tile-header">
-            <img class="tile-share-icon" src="https://img.icons8.com/external-those-icons-lineal-those-icons/96/000000/external-share-network-sharing-those-icons-lineal-those-icons.png"/>
+            <img class="tile-share-icon" src="https://img.icons8.com/external-those-icons-lineal-those-icons/96/000000/34F6F2/external-share-network-sharing-those-icons-lineal-those-icons.png"/>
             <img class="tile-header-img" src="./assets/flagstaff.png">
             <h3 class="views">Views</h3>
             <h3 class="view-count">30</h3>

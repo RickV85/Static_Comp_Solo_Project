@@ -13,113 +13,180 @@
   color: #001524;
 }
 
-.h1 {
+h1 {
+  color: #FF7D00;
+  font-size: 4vh;
+  font-weight: 200;
+  margin-right: 15px;
+}
+
+h2 {
+  color: #FFECD1;
+  font-size: 2vh;
+  font-weight: 400;
+}
+
+h3 {
 
 }
 
-.h2 {
+h4 {
 
 }
 
-.h3 {
-
-}
-
-.h4 {
-
-}
-
-.p {
+p {
   
 }
 
 /* NAV section */
 
 .nav {
-  height: 5vh;
-  background-color: blue;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #001524;
 }
 
 .top-nav {
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
+.user-section {
+  display: flex;
+  align-items: center;
+}
+
+.empty-top-nav {
+  width: 10vw;
 }
 
 .user-icon {
-
+  height: 3vh;
+  color: #15616d;
 }
 
 .profile-link {
-
+  color: #15616d;
+  padding-left: 10px;
 }
 
 .nav-arrow {
-
+  height: 1.8vh;
+  color: #15616d;
+  padding-right: 18px;
+  padding-left: 12px;
 }
 
 .bottom-nav {
-
+  height: 10vh;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
 }
 
 .bottom-nav-left {
+  width: 35vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
 
+.selected-section-title {
+  color: #FF7D00;
+  font-weight: 600;
 }
 
 .nav-software {
-
+  display: flex;
+  align-items: center;
 }
 
 .nav-software-icon {
-
+  height: 5vh;
+  color: #15616d;
+  padding-right: 12px;
 }
 
 .nav-resume {
-
+  display: flex;
+  align-items: center;
 }
 
 .nav-resume-icon {
-
+  height: 5vh;
+  color: #15616d;
+  padding-right: 12px;
 }
 
 .nav-videos {
-
+  display: flex;
+  align-items: center;
 }
 
 .nav-videos-icon {
-
+  height: 5vh;
+  color: #15616d;
+  padding-right: 12px;
 }
 
 .bottom-nav-right {
-  
+  width: 40vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 .site-title {
-
+  display: flex;
+  align-items: center
 }
 
 .site-logo {
-  
+  height: 6vh;
+  margin-right: 20px;
 }
 
 /* MAIN styles */
 
 .main {
-
+  height: 130vh;
 }
 
-.main-header{
+.main-header {
+  height: 10vh;
+}
 
+.main-header-selected-section-title {
+  font-size: 4.5vh;
+  color: #001524;
 }
 
 .main-top{
+  height: 60vh;
+  display: flex;
+  flex-direction: row;
+}
 
+.main-bottom {
+  height: 60vh;
+  display: flex;
+  flex-direction: row;
 }
 
 .tile {
-
+  height: 60vh;
+  width: 24vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .tile-header {
-
+  height: 15vh;
 }
 
 .tile-share-icon {
@@ -127,7 +194,7 @@
 }
 
 .tile-header-img {
-  height:18vh;
+  height:15vh;
   z-index: 1;
 }
 
@@ -140,7 +207,7 @@
 }
 
 .video-details-section {
-
+  height: 20vh;
 }
 
 .video-title {
