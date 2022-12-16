@@ -4,9 +4,11 @@
 [View deployed page here](https://rickv85.github.io/Static_Comp_Solo_Project/)
 
 Figma design:
+<img width="696" alt="Screenshot 2022-12-16 at 8 39 57 AM" src="https://user-images.githubusercontent.com/113707169/208136573-4f9f8f07-bc55-4685-85f0-ba183a44a78f.png">
 
 
 Screenshot of deployed site:
+![Screenshot 2022-12-16 at 8 32 26 AM](https://user-images.githubusercontent.com/113707169/208136615-95e6d5ac-da67-4fd2-bd3d-4e5976551afa.png)
 
 
 ### `Context:`
