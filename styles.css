@@ -110,7 +110,7 @@ p {
 }
 
 .bottom-nav-right {
-  width: 35vw;
+  width: fit-content;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -315,10 +315,6 @@ p {
   }
 
   .bottom-nav-left {
-    width: 50vw;
-  }
-
-  .bottom-nav-right {
     width: 50vw;
   }
 
