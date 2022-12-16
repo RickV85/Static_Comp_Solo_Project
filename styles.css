@@ -27,7 +27,8 @@ h2 {
 }
 
 h3 {
-
+  font-size: 16px;
+  font-weight: 500;
 }
 
 h4 {
@@ -35,7 +36,8 @@ h4 {
 }
 
 p {
-  
+  font-size: 14px;
+  font-weight: 400;
 }
 
 /* NAV section */
@@ -88,7 +90,7 @@ p {
 }
 
 .bottom-nav-left {
-  width: 35vw;
+  width: 545px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -134,7 +136,7 @@ p {
 }
 
 .bottom-nav-right {
-  width: 40vw;
+  width: 35vw;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -154,81 +156,167 @@ p {
 
 .main {
   height: 130vh;
+  background-color: #FFECD1;
 }
 
 .main-header {
-  height: 10vh;
+  height: 12vh;
+  background-color: #FFECD1;
+  display: flex;
+  align-items: center;
 }
 
 .main-header-selected-section-title {
   font-size: 4.5vh;
   color: #001524;
+  margin-left: 24px;
 }
 
 .main-top{
-  height: 60vh;
+  height: 452px;
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  margin-bottom: 7px;
 }
 
 .main-bottom {
-  height: 60vh;
+  height: 452px;
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-bottom: 7px;
 }
 
 .tile {
-  height: 60vh;
-  width: 24vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  height: 452px;
+  width: 23.8vw;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #a5a5a5;
+  background-color: #FFFBF5;
+  box-shadow: 5px 5px 5px #00000050;
+}
+
+.tile:hover{
+  outline-style: solid;
+  outline-color: #34f6f385;
+  outline-width: 3px;
+  outline-offset: -1px;
 }
 
 .tile-header {
-  height: 15vh;
+  height: 17vh;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  background-position: center;
+}
+
+#cryptic {
+  background-image: url(./assets/cryptic.png);
+}
+
+#glacier {
+  background-image: url(./assets/glacier.png);
+}
+
+#trestle {
+  background-image: url(./assets/trestle.png);
+}
+
+#snowmass {
+  background-image: url(./assets/snowmass.png);
+}
+
+#whistler {
+  background-image: url(./assets/whistler.png);
+}
+
+#valhalla {
+  background-image: url(./assets/valhalla.png);
+}
+
+#lefthand {
+  background-image: url(./assets/lefthand.png);
+}
+
+#flagstaff {
+  background-image: url(./assets/flagstaff.png);
 }
 
 .tile-share-icon {
-  z-index: 2;
+  height: 47px;
+  position: relative;
+  top: 4px;
+  left: 5px;
 }
 
 .tile-header-img {
-  height:15vh;
-  z-index: 1;
+  width: 23.88vw;
+  position: relative;
+  top: -39px;
+}
+
+.view-section {
+  width: 4vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 18px;
+  margin-top: 10px;
 }
 
 .views {
-  z-index: 2;
+  color: #34F6F2;
+  background-color: #001524ad;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 4px;
+  fill-opacity: 75%;
+  font-size: 16px;
 }
 
 .view-count {
-  z-index: 2;
+  color: #34F6F2;
+  font-size: 30px;
+  font-weight: 600;
+  text-shadow: 5px 5px 5px #000000,
+              0px 0px 5px #000000;
 }
 
 .video-details-section {
-  height: 20vh;
+  height: 7vh;
+  margin-left: 12px;
+  margin-top: 12px;
 }
 
 .video-title {
-
+  width: 22vw;
 }
 
 .date-uploaded {
-
+  color: #a5a5a5;
+  margin-top: 2px;
 }
 
 .description-section {
-
+  width: 22vw;
+  height: 220px;
+  margin-left: 12px;
+  margin-top: 17px;
+  overflow: scroll;
 }
 
 .description-header {
-
+  color: #a5a5a5;
 }
 .description {
-
-}
-
-.show-more {
 
 }
