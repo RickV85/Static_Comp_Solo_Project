@@ -104,7 +104,7 @@ p {
 }
 
 .nav-icon {
-  height: 5vh;
+  height: 40px;
   color: #15616d;
   padding-right: 12px;
 }
@@ -231,7 +231,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-right: 18px;
+  margin-right: 1.5rem;
   margin-top: 10px;
 }
 
@@ -271,7 +271,7 @@ p {
 
 .description-section {
   width: 22vw;
-  height: 220px;
+  max-height: 189px;
   margin-left: 12px;
   margin-top: 17px;
   overflow: scroll;
@@ -279,4 +279,97 @@ p {
 
 .description-header {
   color: #a5a5a5;
+}
+
+/* Mobile Breakpoint */
+
+@media only screen and (max-width: 660px) {
+  h1 {
+    font-size: 5vw;
+    margin-right: 1vw;
+  }
+
+  h2 {
+    font-size: 3vw;
+  }
+
+  .nav {
+    height: 8vh;
+  }
+
+  .top-nav {
+    height: 2.5vh;
+  }
+
+  .user-icon {
+    display: none;
+  }
+
+  .profile-link {
+    font-size: 12px;
+  }
+
+  .bottom-nav {
+    height: 5vh;
+  }
+
+  .bottom-nav-left {
+    width: 55vw;
+  }
+
+  .bottom-nav-right {
+    width: 45vw;
+  }
+
+  .site-logo {
+    height: 7vw;
+    margin-right: 6px;
+  }
+
+  .nav-arrow {
+    height: 1.5vh;
+  }
+
+  .nav-icon {
+    display: none;
+  }
+
+  .main {
+    height: fit-content;
+    padding-bottom: 30vh;
+  }
+
+  .main-header {
+    height: 4vh;
+  }
+
+  .main-header-selected-section-title {
+    font-size: 3vh;
+    margin-top: 2vh;
+  }
+
+  .main-sections {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tile {
+    width: 80vw;
+    height: 43vh;
+    margin-top: 2vh;
+  }
+
+  .video-title {
+    width: 73vw;
+  }
+
+  .description-section {
+    width: 73vw;
+  }
+
+  .view-section {
+    margin-right: 2.5rem;
+  }
 }
