@@ -17,7 +17,6 @@ h1 {
   color: #FF7D00;
   font-size: 4vh;
   font-weight: 200;
-  margin-right: 15px;
 }
 
 h2 {
@@ -116,10 +115,15 @@ p {
   justify-content: flex-end;
 }
 
-.site-title {
+.site-title-section {
   display: flex;
   align-items: center;
   width: fit-content;
+}
+
+.site-title {
+  width: fit-content;
+  margin-right: 15px;
 }
 
 .site-logo {
@@ -286,8 +290,7 @@ p {
 
 @media only screen and (max-width: 660px) {
   h1 {
-    font-size: 16px;
-    margin-right: 1vw;
+    font-size: 18px;
   }
 
   h2 {
@@ -318,8 +321,12 @@ p {
     width: 50vw;
   }
 
+  .site-title {
+    margin-right: 6px;
+  }
+
   .site-logo {
-    height: 6vw;
+    height: 2.5vh;
     margin-right: 6px;
   }
 
