@@ -367,6 +367,8 @@ p {
 
   .description-section {
     width: 73vw;
+    overflow: scroll;
+    max-height: 120px;
   }
 
   .view-section {
