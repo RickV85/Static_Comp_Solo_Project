@@ -318,7 +318,7 @@ p {
   }
 
   .bottom-nav-right {
-    width: 45vw;
+    width: 40vw;
   }
 
   .site-logo {
@@ -355,6 +355,10 @@ p {
     align-items: center;
   }
 
+  .video-details-section {
+    height: fit-content;
+  }
+
   .tile {
     width: 90vw;
     height: 43vh;
@@ -366,9 +370,9 @@ p {
   }
 
   .description-section {
-    width: 73vw;
+    width: 83vw;
     overflow: scroll;
-    max-height: 120px;
+    max-height: 130px;
   }
 
   .view-section {
