@@ -118,7 +118,8 @@ p {
 
 .site-title {
   display: flex;
-  align-items: center
+  align-items: center;
+  width: fit-content;
 }
 
 .site-logo {
